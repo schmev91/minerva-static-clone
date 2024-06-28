@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minerva</title>
+
+    <link rel="stylesheet" href="src/css/output.css">
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="icon" href="src/img/favicon.ico">
+    
+  </head>
+  <body class="bg-black overflow-y-scroll" style="height: 300vh">
+    <!-- HEADER - START -->
+    <header class="container h-20 flex items-center justify-between bg-black sticky top-0">
+      <img src="src/img/logo.png" class="h-7" alt="">
+      <nav class="flex gap-4">
+        <div class="flex pe-3">
+          <div id="navigate" class="flex items-center gap-6 font-medium">
+            <a href="#" class="hover:text-main text-gray-400">Blog</a>
+            <a href="#team" class="hover:text-main text-gray-400">Đội ngũ</a>
+            <a href="#tokenomics" class="hover:text-main text-gray-400">Tokenomics</a>
+            <a href="#pricing" class="hover:text-main text-gray-400">Giá</a>
+            <a href="#" class="hover:text-main text-gray-400">Tài liệu</a>
+          </div>
+        </div>
+        <!-- NAVIGATING - END -->
+
+        <div class="flex gap-2 items-center">
+          <span class="font-medium text-slate-500 text-xs">EN</span>
+          <input type="checkbox" class="toggle border-0 toggle-sm bg-white hover:bg-white [--tglbg:#432FBB]" checked="checked" />
+          <span class="font-medium text-white text-xs">VI</span>
+        </div>
+        <!-- LANG TOGLGE BUTTON - END -->
+        
+        <div id="interactive-buttons" class="flex gap-4">
+          <button class="font-bold text-white rounded-md py-1 px-3 text-xs bg-main">Thử ngay</button>
+          <button class="font-bold text-white rounded-md py-1 px-3 text-xs bg-main">Kết nối ví</button>
+        </div>
+        <!-- INTERACTIVE BUTTON - END -->
+
+  
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="flex gap-2 items-center border-slate-300 rounded-md border px-3 py-1">
+            <img src="src//img/icons/onus.png" class="w-6 h-6" alt="">
+            <span class="text-white font-medium text-xs">ONUS</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="white" class="size-4">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+            </svg>
+          </div>
+
+          <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+            <li><a>Item 1</a></li>
+            <li><a>Item 2</a></li>
+          </ul>
+        </div>
+        <!-- END DROP DOWN -->
+      </nav>
+    </header>
+    <!-- HEADER - END -->
+  </body>
+</html>
