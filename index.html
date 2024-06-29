@@ -1,55 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minerva</title>
 
-    <link rel="stylesheet" href="src/css/output.css">
-    <link rel="stylesheet" href="src/css/global.css">
-    <link rel="icon" href="src/img/favicon.ico">
-    
+    <link rel="stylesheet" href="src/css/output.css" />
+    <link rel="stylesheet" href="src/css/global.css" />
+
+    <link rel="icon" href="src/img/favicon.ico" />
   </head>
-  <body class="bg-black overflow-y-scroll" style="height: 300vh">
+
+  <body class="-z-50 overflow-y-scroll bg-black">
     <!-- HEADER - START -->
-    <header class="container h-20 flex items-center justify-between bg-black sticky top-0">
-      <img src="src/img/logo.png" class="h-7" alt="">
+    <header
+      class="container fixed top-0 z-50 flex h-20 items-center justify-between bg-black"
+    >
+      <img src="src/img/logo.png" class="h-7" alt="" />
       <nav class="flex gap-4">
         <div class="flex pe-3">
           <div id="navigate" class="flex items-center gap-6 font-medium">
-            <a href="#" class="hover:text-main text-gray-400">Blog</a>
-            <a href="#team" class="hover:text-main text-gray-400">Đội ngũ</a>
-            <a href="#tokenomics" class="hover:text-main text-gray-400">Tokenomics</a>
-            <a href="#pricing" class="hover:text-main text-gray-400">Giá</a>
-            <a href="#" class="hover:text-main text-gray-400">Tài liệu</a>
+            <a href="#" class="text-gray-400 hover:text-main">Blog</a>
+            <a href="#team" class="text-gray-400 hover:text-main">Đội ngũ</a>
+            <a href="#tokenomics" class="text-gray-400 hover:text-main"
+              >Tokenomics</a
+            >
+            <a href="#pricing" class="text-gray-400 hover:text-main">Giá</a>
+            <a href="#" class="text-gray-400 hover:text-main">Tài liệu</a>
           </div>
         </div>
         <!-- NAVIGATING - END -->
 
-        <div class="flex gap-2 items-center">
-          <span class="font-medium text-slate-500 text-xs">EN</span>
-          <input type="checkbox" class="toggle border-0 toggle-sm bg-white hover:bg-white [--tglbg:#432FBB]" checked="checked" />
-          <span class="font-medium text-white text-xs">VI</span>
+        <div class="flex items-center gap-2">
+          <span class="text-xs font-medium text-slate-500">EN</span>
+          <input
+            type="checkbox"
+            class="toggle toggle-sm border-0 bg-white [--tglbg:#432FBB] hover:bg-white"
+            checked="checked"
+          />
+          <span class="text-xs font-medium text-white">VI</span>
         </div>
         <!-- LANG TOGLGE BUTTON - END -->
-        
+
         <div id="interactive-buttons" class="flex gap-4">
-          <button class="font-bold text-white rounded-md py-1 px-3 text-xs bg-main">Thử ngay</button>
-          <button class="font-bold text-white rounded-md py-1 px-3 text-xs bg-main">Kết nối ví</button>
+          <button
+            class="rounded-md bg-main px-4 py-2 text-sm font-bold text-white"
+          >
+            Thử ngay
+          </button>
+          <button
+            class="rounded-md bg-main px-4 py-2 text-sm font-bold text-white"
+          >
+            Kết nối ví
+          </button>
         </div>
         <!-- INTERACTIVE BUTTON - END -->
 
-  
         <div class="dropdown">
-          <div tabindex="0" role="button" class="flex gap-2 items-center border-slate-300 rounded-md border px-3 py-1">
-            <img src="src//img/icons/onus.png" class="w-6 h-6" alt="">
-            <span class="text-white font-medium text-xs">ONUS</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="white" class="size-4">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          <div
+            tabindex="0"
+            role="button"
+            class="flex items-center gap-2 rounded-lg border border-slate-500 px-4 py-2"
+          >
+            <img src="src//img/icons/onus.png" class="h-6 w-6" alt="" />
+            <span class="text-sm font-bold text-white">ONUS</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="3"
+              stroke="white"
+              class="size-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
             </svg>
           </div>
 
-          <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+          <ul
+            tabindex="0"
+            class="menu dropdown-content z-[1] w-52 rounded-box bg-base-100 p-2 shadow"
+          >
             <li><a>Item 1</a></li>
             <li><a>Item 2</a></li>
           </ul>
@@ -58,5 +92,96 @@
       </nav>
     </header>
     <!-- HEADER - END -->
+
+    <!-- HERO - START -->
+    <section class="relative h-screen">
+      <div class="container z-10 flex flex-col pt-40">
+        <h1
+          class="z-50 mb-10 text-[4rem] font-medium leading-[4rem] text-white"
+        >
+          Giao dịch <br />
+          tài sản số <br />
+          với <span class="text-gradient">Tín hiệu AI!</span>
+        </h1>
+        <!-- HERO TOP -END -->
+
+        <button
+          class="z-50 w-fit rounded-md bg-main px-3 py-2 font-medium text-white"
+        >
+          TRẢI NGHIỆM MIỄN PHÍ
+        </button>
+        <!-- HERO MIDDLE -END -->
+
+        <div class="z-50 mt-20 flex flex-col">
+          <div class="flex gap-6">
+            <div
+              class="flex flex-col gap-3 rounded-2xl bg-[#161616] px-8 py-6 text-center"
+            >
+              <h3 class="text-3xl text-white">2,247</h3>
+              <span class="text-gray-400">Tống số tín hiệu</span>
+            </div>
+            <!-- STAT - END -->
+            <div
+              class="flex flex-col gap-3 rounded-2xl bg-[#161616] px-8 py-6 text-center"
+            >
+              <h3 class="text-3xl text-white">66,04%</h3>
+              <span class="text-gray-400">Tỷ lệ thắng</span>
+            </div>
+            <!-- STAT - END -->
+            <div
+              class="flex flex-col gap-3 rounded-2xl bg-[#161616] px-8 py-6 text-center"
+            >
+              <h3 class="text-3xl text-white">1,484</h3>
+              <span class="text-gray-400">Tổng tín hiệu thắng </span>
+            </div>
+            <!-- STAT - END -->
+          </div>
+          <!-- HERO STATS - END -->
+
+          <a
+            href="#"
+            class="text-gradient ml-3 mt-5 flex w-fit items-center gap-2 text-lg"
+          >
+            <span>Xem Thống kê Lãi và Lỗ</span>
+            <svg
+              width="10"
+              height="8"
+              viewBox="0 0 10 8"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.33333 1.33325L9 3.99992M9 3.99992L6.33333 6.66658M9 3.99992L0.999999 3.99992"
+                stroke="url(#paint0_linear_1235_19802)"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1235_19802"
+                  x1="0.999999"
+                  y1="1.33325"
+                  x2="0.999999"
+                  y2="6.98447"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#BEEEFF"></stop>
+                  <stop offset="1" stop-color="#726FFF"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+          </a>
+          <!-- HERO CALL TO ACTION -END -->
+        </div>
+        <!-- HERO BOTTOM -END -->
+      </div>
+
+      <img
+        src="src/img/hero-bg.png"
+        class="absolute bottom-0 right-0 h-full object-cover pe-3 pt-5"
+        alt=""
+      />
+    </section>
+    <!-- HERO - END -->
   </body>
 </html>
