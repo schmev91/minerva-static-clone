@@ -11,10 +11,11 @@
     <link rel="icon" href="src/img/favicon.ico" />
   </head>
 
-  <body class="-z-50 overflow-y-scroll bg-black">
+  <body class="-z-50 overflow-y-scroll">
     <!-- HEADER - START -->
     <header
-      class="container fixed top-0 z-50 flex h-20 items-center justify-between bg-black"
+      class="container fixed top-0 flex h-20 items-center justify-between bg-black"
+      style="z-index: 999"
     >
       <img src="src/img/logo.png" class="h-7" alt="" />
       <nav class="flex gap-4">
@@ -94,7 +95,7 @@
     <!-- HEADER - END -->
 
     <!-- HERO - START -->
-    <section class="relative h-screen">
+    <section class="relative h-screen bg-black">
       <div class="container z-10 flex flex-col pt-40">
         <h1
           class="z-50 mb-10 text-[4rem] font-medium leading-[4rem] text-white"
@@ -183,5 +184,60 @@
       />
     </section>
     <!-- HERO - END -->
+
+    <!-- FOOTER - START -->
+    <footer class="rounded-t-[10rem] bg-black pb-10 pt-[120px]">
+      <div class="container">
+        <div class="flex justify-between">
+          <div class="flex flex-col gap-2">
+            <div>
+              <img class="h-7 w-fit" src="src/img/logo.png" alt="" />
+              <p class="mt-2 text-sm text-gray-400">
+                Giao dịch tự tin hơn với tầm nhìn vượt mọi con số!
+              </p>
+            </div>
+            <!-- FOOTER LABEL -END -->
+
+            <div class="mt-4 flex gap-3">
+              <div class="flex flex-col gap-2 text-gray-300">
+                <p>Điều khoản dịch vụ</p>
+                <p>Chính sách bảo mật</p>
+                <p>Tuyên bố</p>
+              </div>
+              <div class="flex flex-col gap-2 text-gray-300">
+                <p>Tài liệu</p>
+                <p>Chính sách cookie</p>
+              </div>
+            </div>
+            <!-- FOOTER TERMS -END -->
+          </div>
+          <!-- FOOTER LEFT - END -->
+
+          <div class="flex flex-col gap-5">
+            <p class="text-gradient text-right text-xl">THAM GIA NGAY!</p>
+            <div class="flex w-full justify-around">
+              <img src="src/img/footer/twitter-x.png" alt="" />
+              <img src="src/img/footer/telegram-chat.png" alt="" />
+              <img src="src/img/footer/telegram-ann.png" alt="" />
+            </div>
+            <div class="flex items-center justify-end gap-2">
+              <span class="text-xs font-medium text-slate-500">EN</span>
+              <input
+                type="checkbox"
+                class="toggle toggle-sm border-0 bg-white [--tglbg:#432FBB] hover:bg-white"
+                checked="checked"
+              />
+              <span class="text-xs font-medium text-white">VI</span>
+            </div>
+            <!-- LANG TOGLGE BUTTON - END -->
+          </div>
+          <!-- FOOTER RIGHT - END -->
+        </div>
+        <p class="text-center text-sm text-gray-400">
+          Mọi bản quyền thuộc về Minerva © 2023.
+        </p>
+      </div>
+    </footer>
+    <!-- FOOTER - END -->
   </body>
 </html>
