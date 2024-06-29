@@ -1661,6 +1661,11 @@ html {
   margin-bottom: 1.25rem;
 }
 
+.my-\[2px\] {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -1729,6 +1734,14 @@ html {
   margin-top: 3rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1782,6 +1795,22 @@ html {
   height: 2px;
 }
 
+.h-\[4rem\] {
+  height: 4rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.min-h-\[26\.2rem\] {
+  min-height: 26.2rem;
+}
+
+.min-h-\[40px\] {
+  min-height: 40px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1819,6 +1848,18 @@ html {
   width: 72px;
 }
 
+.w-\[1px\] {
+  width: 1px;
+}
+
+.w-\[4rem\] {
+  width: 4rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
 .max-w-\[37\.5rem\] {
   max-width: 37.5rem;
 }
@@ -1840,12 +1881,20 @@ html {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .items-center {
   align-items: center;
+}
+
+.items-stretch {
+  align-items: stretch;
 }
 
 .justify-end {
@@ -1901,6 +1950,11 @@ html {
   row-gap: 1rem;
 }
 
+.gap-x-6 {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
 .overflow-y-scroll {
   overflow-y: scroll;
 }
@@ -1953,6 +2007,10 @@ html {
 
 .border-t {
   border-top-width: 1px;
+}
+
+.border-l {
+  border-left-width: 1px;
 }
 
 .border-dashed {
@@ -2049,6 +2107,16 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -2072,6 +2140,10 @@ html {
 
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-3 {
@@ -2160,6 +2232,10 @@ html {
   padding-top: 120px;
 }
 
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2205,6 +2281,11 @@ html {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -2269,6 +2350,11 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -2287,4 +2373,29 @@ html {
 .hover\:text-main:hover {
   --tw-text-opacity: 1;
   color: rgb(67 47 187 / var(--tw-text-opacity));
+}
+
+@media not all and (min-width: 1536px) {
+  .max-2xl\:h-\[3\.5rem\] {
+    height: 3.5rem;
+  }
+
+  .max-2xl\:w-\[3\.5rem\] {
+    width: 3.5rem;
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:h-\[2\.5rem\] {
+    height: 2.5rem;
+  }
+
+  .max-md\:w-\[2\.5rem\] {
+    width: 2.5rem;
+  }
+
+  .max-md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
