@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Minerva</title>
+    <title>MINERVA - mine</title>
 
     <link rel="stylesheet" href="src/css/output.css" />
     <link rel="stylesheet" href="src/css/global.css" />
@@ -11,8 +11,8 @@
     <link rel="icon" href="src/img/favicon.ico" />
   </head>
 
-  <body class="-z-50 overflow-y-scroll">
-    <!-- HEADER - START -->
+  <body class="-z-50 overflow-y-scroll bg-black">
+    <!-- ===== HEADER ===== - START -->
     <header
       class="container fixed top-0 flex h-20 items-center justify-between bg-black"
       style="z-index: 999"
@@ -94,7 +94,7 @@
     </header>
     <!-- HEADER - END -->
 
-    <!-- HERO - START -->
+    <!-- ===== HERO ===== - START -->
     <section class="relative h-screen bg-black">
       <div class="container z-10 flex flex-col pt-40">
         <h1
@@ -185,7 +185,960 @@
     </section>
     <!-- HERO - END -->
 
-    <!-- FOOTER - START -->
+    <!-- ===== INNER WRAPER ===== - START -->
+    <main class="rounded-t-[10rem] bg-[#181818] pb-52 pt-36">
+      <!-- ===== MARKET - START -->
+      <section class="container">
+        <div class="flex items-center justify-between">
+          <h1 class="text-gradient text-5xl font-medium">
+            Khám phá thị trường
+          </h1>
+          <p class="font-medium text-main">See More on ONUS App</p>
+        </div>
+        <!-- MARKET HEADER - END -->
+
+        <div class="mt-20 grid grid-cols-3 gap-x-4 gap-y-4">
+          <span class="trade-card rounded-2xl bg-[#262626] p-6">
+            <p class="flex justify-between">
+              <span class="text-lg font-medium text-[#3B82F6]">#FUTURES</span>
+              <span class="rounded-lg bg-[#16A34A] px-4 py-1 text-white"
+                >Thắng</span
+              >
+            </p>
+            <!-- end - card header -->
+            <div class="mt-4 flex items-center gap-3">
+              <span class="rounded-lg bg-[#7F1D1D] px-4 py-1 text-[#eF4444]">
+                SHORT
+              </span>
+              <span class="flex items-center">
+                <p class="z-10 rounded-full bg-[#262626] p-0.5">
+                  <img
+                    src="src/img/icons/coins/ltc.png"
+                    class="h-7 w-7"
+                    alt=""
+                  />
+                </p>
+                <img
+                  src="src/img/icons/coins/doge.png"
+                  class="h-7 w-7 -translate-x-3"
+                  alt=""
+                />
+              </span>
+              <span class="font-medium text-white"> LTC/DOGE </span>
+            </div>
+            <!-- end - card label -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex justify-between">
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá vào</span>
+                <span class="text-lg text-white">48,950</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá đóng</span>
+                <span class="text-lg text-white">48,182</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Thời gian đóng</span>
+                <span class="text-lg text-white">14/06/2024 21:25</span>
+              </div>
+            </div>
+            <!-- end - card body -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex items-center text-[#A3A3A3]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1878_11343)">
+                  <path
+                    d="M8.00065 7.99992H7.25065C7.25065 8.32274 7.45722 8.60935 7.76348 8.71143L8.00065 7.99992ZM8.75065 4.66659C8.75065 4.25237 8.41487 3.91659 8.00065 3.91659C7.58644 3.91659 7.25065 4.25237 7.25065 4.66659H8.75065ZM9.76348 9.3781C10.1564 9.50908 10.5812 9.29671 10.7122 8.90376C10.8431 8.5108 10.6308 8.08606 10.2378 7.95507L9.76348 9.3781ZM8.75065 7.99992V4.66659H7.25065V7.99992H8.75065ZM7.76348 8.71143L9.76348 9.3781L10.2378 7.95507L8.23782 7.28841L7.76348 8.71143ZM13.9173 7.99992C13.9173 11.2676 11.2683 13.9166 8.00065 13.9166V15.4166C12.0968 15.4166 15.4173 12.096 15.4173 7.99992H13.9173ZM8.00065 13.9166C4.73297 13.9166 2.08398 11.2676 2.08398 7.99992H0.583984C0.583984 12.096 3.90454 15.4166 8.00065 15.4166V13.9166ZM2.08398 7.99992C2.08398 4.73223 4.73297 2.08325 8.00065 2.08325V0.583252C3.90454 0.583252 0.583984 3.90381 0.583984 7.99992H2.08398ZM8.00065 2.08325C11.2683 2.08325 13.9173 4.73223 13.9173 7.99992H15.4173C15.4173 3.90381 12.0968 0.583252 8.00065 0.583252V2.08325Z"
+                    fill="#A3A3A3"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1878_11343">
+                    <rect width="16" height="16" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="ms-1">16 ngày trước</span>
+              <div class="mx-3 h-4 w-px bg-[#737373]"></div>
+              <span>Lãi ghi nhận 15x</span>
+              <p class="ms-3 flex items-center gap-1 text-[#4ADE80]">
+                <span class=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="5"
+                    viewBox="0 0 8 5"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 0.5L7.4641 4.25H0.535898L4 0.5Z"
+                      fill="currentColor"
+                    ></path></svg></span
+                ><span class="">25.51%</span>
+              </p>
+            </div>
+            <!-- end - card footer -->
+          </span>
+          <!-- TRADE CARD - END -->
+          <span class="trade-card rounded-2xl bg-[#262626] p-6">
+            <p class="flex justify-between">
+              <span class="text-lg font-medium text-[#3B82F6]">#FUTURES</span>
+              <span class="rounded-lg bg-[#16A34A] px-4 py-1 text-white"
+                >Thắng</span
+              >
+            </p>
+            <!-- end - card header -->
+            <div class="mt-4 flex items-center gap-3">
+              <span class="rounded-lg bg-[#7F1D1D] px-4 py-1 text-[#eF4444]">
+                SHORT
+              </span>
+              <span class="flex items-center">
+                <p class="z-10 rounded-full bg-[#262626] p-0.5">
+                  <img
+                    src="src/img/icons/coins/ltc.png"
+                    class="h-7 w-7"
+                    alt=""
+                  />
+                </p>
+                <img
+                  src="src/img/icons/coins/doge.png"
+                  class="h-7 w-7 -translate-x-3"
+                  alt=""
+                />
+              </span>
+              <span class="font-medium text-white"> LTC/DOGE </span>
+            </div>
+            <!-- end - card label -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex justify-between">
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá vào</span>
+                <span class="text-lg text-white">48,950</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá đóng</span>
+                <span class="text-lg text-white">48,182</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Thời gian đóng</span>
+                <span class="text-lg text-white">14/06/2024 21:25</span>
+              </div>
+            </div>
+            <!-- end - card body -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex items-center text-[#A3A3A3]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1878_11343)">
+                  <path
+                    d="M8.00065 7.99992H7.25065C7.25065 8.32274 7.45722 8.60935 7.76348 8.71143L8.00065 7.99992ZM8.75065 4.66659C8.75065 4.25237 8.41487 3.91659 8.00065 3.91659C7.58644 3.91659 7.25065 4.25237 7.25065 4.66659H8.75065ZM9.76348 9.3781C10.1564 9.50908 10.5812 9.29671 10.7122 8.90376C10.8431 8.5108 10.6308 8.08606 10.2378 7.95507L9.76348 9.3781ZM8.75065 7.99992V4.66659H7.25065V7.99992H8.75065ZM7.76348 8.71143L9.76348 9.3781L10.2378 7.95507L8.23782 7.28841L7.76348 8.71143ZM13.9173 7.99992C13.9173 11.2676 11.2683 13.9166 8.00065 13.9166V15.4166C12.0968 15.4166 15.4173 12.096 15.4173 7.99992H13.9173ZM8.00065 13.9166C4.73297 13.9166 2.08398 11.2676 2.08398 7.99992H0.583984C0.583984 12.096 3.90454 15.4166 8.00065 15.4166V13.9166ZM2.08398 7.99992C2.08398 4.73223 4.73297 2.08325 8.00065 2.08325V0.583252C3.90454 0.583252 0.583984 3.90381 0.583984 7.99992H2.08398ZM8.00065 2.08325C11.2683 2.08325 13.9173 4.73223 13.9173 7.99992H15.4173C15.4173 3.90381 12.0968 0.583252 8.00065 0.583252V2.08325Z"
+                    fill="#A3A3A3"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1878_11343">
+                    <rect width="16" height="16" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="ms-1">16 ngày trước</span>
+              <div class="mx-3 h-4 w-px bg-[#737373]"></div>
+              <span>Lãi ghi nhận 15x</span>
+              <p class="ms-3 flex items-center gap-1 text-[#4ADE80]">
+                <span class=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="5"
+                    viewBox="0 0 8 5"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 0.5L7.4641 4.25H0.535898L4 0.5Z"
+                      fill="currentColor"
+                    ></path></svg></span
+                ><span class="">25.51%</span>
+              </p>
+            </div>
+            <!-- end - card footer -->
+          </span>
+          <!-- TRADE CARD - END -->
+          <span class="trade-card rounded-2xl bg-[#262626] p-6">
+            <p class="flex justify-between">
+              <span class="text-lg font-medium text-[#3B82F6]">#FUTURES</span>
+              <span class="rounded-lg bg-[#16A34A] px-4 py-1 text-white"
+                >Thắng</span
+              >
+            </p>
+            <!-- end - card header -->
+            <div class="mt-4 flex items-center gap-3">
+              <span class="rounded-lg bg-[#7F1D1D] px-4 py-1 text-[#eF4444]">
+                SHORT
+              </span>
+              <span class="flex items-center">
+                <p class="z-10 rounded-full bg-[#262626] p-0.5">
+                  <img
+                    src="src/img/icons/coins/ltc.png"
+                    class="h-7 w-7"
+                    alt=""
+                  />
+                </p>
+                <img
+                  src="src/img/icons/coins/doge.png"
+                  class="h-7 w-7 -translate-x-3"
+                  alt=""
+                />
+              </span>
+              <span class="font-medium text-white"> LTC/DOGE </span>
+            </div>
+            <!-- end - card label -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex justify-between">
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá vào</span>
+                <span class="text-lg text-white">48,950</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá đóng</span>
+                <span class="text-lg text-white">48,182</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Thời gian đóng</span>
+                <span class="text-lg text-white">14/06/2024 21:25</span>
+              </div>
+            </div>
+            <!-- end - card body -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex items-center text-[#A3A3A3]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1878_11343)">
+                  <path
+                    d="M8.00065 7.99992H7.25065C7.25065 8.32274 7.45722 8.60935 7.76348 8.71143L8.00065 7.99992ZM8.75065 4.66659C8.75065 4.25237 8.41487 3.91659 8.00065 3.91659C7.58644 3.91659 7.25065 4.25237 7.25065 4.66659H8.75065ZM9.76348 9.3781C10.1564 9.50908 10.5812 9.29671 10.7122 8.90376C10.8431 8.5108 10.6308 8.08606 10.2378 7.95507L9.76348 9.3781ZM8.75065 7.99992V4.66659H7.25065V7.99992H8.75065ZM7.76348 8.71143L9.76348 9.3781L10.2378 7.95507L8.23782 7.28841L7.76348 8.71143ZM13.9173 7.99992C13.9173 11.2676 11.2683 13.9166 8.00065 13.9166V15.4166C12.0968 15.4166 15.4173 12.096 15.4173 7.99992H13.9173ZM8.00065 13.9166C4.73297 13.9166 2.08398 11.2676 2.08398 7.99992H0.583984C0.583984 12.096 3.90454 15.4166 8.00065 15.4166V13.9166ZM2.08398 7.99992C2.08398 4.73223 4.73297 2.08325 8.00065 2.08325V0.583252C3.90454 0.583252 0.583984 3.90381 0.583984 7.99992H2.08398ZM8.00065 2.08325C11.2683 2.08325 13.9173 4.73223 13.9173 7.99992H15.4173C15.4173 3.90381 12.0968 0.583252 8.00065 0.583252V2.08325Z"
+                    fill="#A3A3A3"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1878_11343">
+                    <rect width="16" height="16" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="ms-1">16 ngày trước</span>
+              <div class="mx-3 h-4 w-px bg-[#737373]"></div>
+              <span>Lãi ghi nhận 15x</span>
+              <p class="ms-3 flex items-center gap-1 text-[#4ADE80]">
+                <span class=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="5"
+                    viewBox="0 0 8 5"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 0.5L7.4641 4.25H0.535898L4 0.5Z"
+                      fill="currentColor"
+                    ></path></svg></span
+                ><span class="">25.51%</span>
+              </p>
+            </div>
+            <!-- end - card footer -->
+          </span>
+          <!-- TRADE CARD - END -->
+          <span class="trade-card rounded-2xl bg-[#262626] p-6">
+            <p class="flex justify-between">
+              <span class="text-lg font-medium text-[#3B82F6]">#FUTURES</span>
+              <span class="rounded-lg bg-[#16A34A] px-4 py-1 text-white"
+                >Thắng</span
+              >
+            </p>
+            <!-- end - card header -->
+            <div class="mt-4 flex items-center gap-3">
+              <span class="rounded-lg bg-[#7F1D1D] px-4 py-1 text-[#eF4444]">
+                SHORT
+              </span>
+              <span class="flex items-center">
+                <p class="z-10 rounded-full bg-[#262626] p-0.5">
+                  <img
+                    src="src/img/icons/coins/ltc.png"
+                    class="h-7 w-7"
+                    alt=""
+                  />
+                </p>
+                <img
+                  src="src/img/icons/coins/doge.png"
+                  class="h-7 w-7 -translate-x-3"
+                  alt=""
+                />
+              </span>
+              <span class="font-medium text-white"> LTC/DOGE </span>
+            </div>
+            <!-- end - card label -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex justify-between">
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá vào</span>
+                <span class="text-lg text-white">48,950</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá đóng</span>
+                <span class="text-lg text-white">48,182</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Thời gian đóng</span>
+                <span class="text-lg text-white">14/06/2024 21:25</span>
+              </div>
+            </div>
+            <!-- end - card body -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex items-center text-[#A3A3A3]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1878_11343)">
+                  <path
+                    d="M8.00065 7.99992H7.25065C7.25065 8.32274 7.45722 8.60935 7.76348 8.71143L8.00065 7.99992ZM8.75065 4.66659C8.75065 4.25237 8.41487 3.91659 8.00065 3.91659C7.58644 3.91659 7.25065 4.25237 7.25065 4.66659H8.75065ZM9.76348 9.3781C10.1564 9.50908 10.5812 9.29671 10.7122 8.90376C10.8431 8.5108 10.6308 8.08606 10.2378 7.95507L9.76348 9.3781ZM8.75065 7.99992V4.66659H7.25065V7.99992H8.75065ZM7.76348 8.71143L9.76348 9.3781L10.2378 7.95507L8.23782 7.28841L7.76348 8.71143ZM13.9173 7.99992C13.9173 11.2676 11.2683 13.9166 8.00065 13.9166V15.4166C12.0968 15.4166 15.4173 12.096 15.4173 7.99992H13.9173ZM8.00065 13.9166C4.73297 13.9166 2.08398 11.2676 2.08398 7.99992H0.583984C0.583984 12.096 3.90454 15.4166 8.00065 15.4166V13.9166ZM2.08398 7.99992C2.08398 4.73223 4.73297 2.08325 8.00065 2.08325V0.583252C3.90454 0.583252 0.583984 3.90381 0.583984 7.99992H2.08398ZM8.00065 2.08325C11.2683 2.08325 13.9173 4.73223 13.9173 7.99992H15.4173C15.4173 3.90381 12.0968 0.583252 8.00065 0.583252V2.08325Z"
+                    fill="#A3A3A3"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1878_11343">
+                    <rect width="16" height="16" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="ms-1">16 ngày trước</span>
+              <div class="mx-3 h-4 w-px bg-[#737373]"></div>
+              <span>Lãi ghi nhận 15x</span>
+              <p class="ms-3 flex items-center gap-1 text-[#4ADE80]">
+                <span class=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="5"
+                    viewBox="0 0 8 5"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 0.5L7.4641 4.25H0.535898L4 0.5Z"
+                      fill="currentColor"
+                    ></path></svg></span
+                ><span class="">25.51%</span>
+              </p>
+            </div>
+            <!-- end - card footer -->
+          </span>
+          <!-- TRADE CARD - END -->
+          <span class="trade-card rounded-2xl bg-[#262626] p-6">
+            <p class="flex justify-between">
+              <span class="text-lg font-medium text-[#3B82F6]">#FUTURES</span>
+              <span class="rounded-lg bg-[#16A34A] px-4 py-1 text-white"
+                >Thắng</span
+              >
+            </p>
+            <!-- end - card header -->
+            <div class="mt-4 flex items-center gap-3">
+              <span class="rounded-lg bg-[#7F1D1D] px-4 py-1 text-[#eF4444]">
+                SHORT
+              </span>
+              <span class="flex items-center">
+                <p class="z-10 rounded-full bg-[#262626] p-0.5">
+                  <img
+                    src="src/img/icons/coins/ltc.png"
+                    class="h-7 w-7"
+                    alt=""
+                  />
+                </p>
+                <img
+                  src="src/img/icons/coins/doge.png"
+                  class="h-7 w-7 -translate-x-3"
+                  alt=""
+                />
+              </span>
+              <span class="font-medium text-white"> LTC/DOGE </span>
+            </div>
+            <!-- end - card label -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex justify-between">
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá vào</span>
+                <span class="text-lg text-white">48,950</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá đóng</span>
+                <span class="text-lg text-white">48,182</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Thời gian đóng</span>
+                <span class="text-lg text-white">14/06/2024 21:25</span>
+              </div>
+            </div>
+            <!-- end - card body -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex items-center text-[#A3A3A3]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1878_11343)">
+                  <path
+                    d="M8.00065 7.99992H7.25065C7.25065 8.32274 7.45722 8.60935 7.76348 8.71143L8.00065 7.99992ZM8.75065 4.66659C8.75065 4.25237 8.41487 3.91659 8.00065 3.91659C7.58644 3.91659 7.25065 4.25237 7.25065 4.66659H8.75065ZM9.76348 9.3781C10.1564 9.50908 10.5812 9.29671 10.7122 8.90376C10.8431 8.5108 10.6308 8.08606 10.2378 7.95507L9.76348 9.3781ZM8.75065 7.99992V4.66659H7.25065V7.99992H8.75065ZM7.76348 8.71143L9.76348 9.3781L10.2378 7.95507L8.23782 7.28841L7.76348 8.71143ZM13.9173 7.99992C13.9173 11.2676 11.2683 13.9166 8.00065 13.9166V15.4166C12.0968 15.4166 15.4173 12.096 15.4173 7.99992H13.9173ZM8.00065 13.9166C4.73297 13.9166 2.08398 11.2676 2.08398 7.99992H0.583984C0.583984 12.096 3.90454 15.4166 8.00065 15.4166V13.9166ZM2.08398 7.99992C2.08398 4.73223 4.73297 2.08325 8.00065 2.08325V0.583252C3.90454 0.583252 0.583984 3.90381 0.583984 7.99992H2.08398ZM8.00065 2.08325C11.2683 2.08325 13.9173 4.73223 13.9173 7.99992H15.4173C15.4173 3.90381 12.0968 0.583252 8.00065 0.583252V2.08325Z"
+                    fill="#A3A3A3"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1878_11343">
+                    <rect width="16" height="16" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="ms-1">16 ngày trước</span>
+              <div class="mx-3 h-4 w-px bg-[#737373]"></div>
+              <span>Lãi ghi nhận 15x</span>
+              <p class="ms-3 flex items-center gap-1 text-[#4ADE80]">
+                <span class=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="5"
+                    viewBox="0 0 8 5"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 0.5L7.4641 4.25H0.535898L4 0.5Z"
+                      fill="currentColor"
+                    ></path></svg></span
+                ><span class="">25.51%</span>
+              </p>
+            </div>
+            <!-- end - card footer -->
+          </span>
+          <!-- TRADE CARD - END -->
+          <span class="trade-card rounded-2xl bg-[#262626] p-6">
+            <p class="flex justify-between">
+              <span class="text-lg font-medium text-[#3B82F6]">#FUTURES</span>
+              <span class="rounded-lg bg-[#16A34A] px-4 py-1 text-white"
+                >Thắng</span
+              >
+            </p>
+            <!-- end - card header -->
+            <div class="mt-4 flex items-center gap-3">
+              <span class="rounded-lg bg-[#7F1D1D] px-4 py-1 text-[#eF4444]">
+                SHORT
+              </span>
+              <span class="flex items-center">
+                <p class="z-10 rounded-full bg-[#262626] p-0.5">
+                  <img
+                    src="src/img/icons/coins/ltc.png"
+                    class="h-7 w-7"
+                    alt=""
+                  />
+                </p>
+                <img
+                  src="src/img/icons/coins/doge.png"
+                  class="h-7 w-7 -translate-x-3"
+                  alt=""
+                />
+              </span>
+              <span class="font-medium text-white"> LTC/DOGE </span>
+            </div>
+            <!-- end - card label -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex justify-between">
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá vào</span>
+                <span class="text-lg text-white">48,950</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá đóng</span>
+                <span class="text-lg text-white">48,182</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Thời gian đóng</span>
+                <span class="text-lg text-white">14/06/2024 21:25</span>
+              </div>
+            </div>
+            <!-- end - card body -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex items-center text-[#A3A3A3]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1878_11343)">
+                  <path
+                    d="M8.00065 7.99992H7.25065C7.25065 8.32274 7.45722 8.60935 7.76348 8.71143L8.00065 7.99992ZM8.75065 4.66659C8.75065 4.25237 8.41487 3.91659 8.00065 3.91659C7.58644 3.91659 7.25065 4.25237 7.25065 4.66659H8.75065ZM9.76348 9.3781C10.1564 9.50908 10.5812 9.29671 10.7122 8.90376C10.8431 8.5108 10.6308 8.08606 10.2378 7.95507L9.76348 9.3781ZM8.75065 7.99992V4.66659H7.25065V7.99992H8.75065ZM7.76348 8.71143L9.76348 9.3781L10.2378 7.95507L8.23782 7.28841L7.76348 8.71143ZM13.9173 7.99992C13.9173 11.2676 11.2683 13.9166 8.00065 13.9166V15.4166C12.0968 15.4166 15.4173 12.096 15.4173 7.99992H13.9173ZM8.00065 13.9166C4.73297 13.9166 2.08398 11.2676 2.08398 7.99992H0.583984C0.583984 12.096 3.90454 15.4166 8.00065 15.4166V13.9166ZM2.08398 7.99992C2.08398 4.73223 4.73297 2.08325 8.00065 2.08325V0.583252C3.90454 0.583252 0.583984 3.90381 0.583984 7.99992H2.08398ZM8.00065 2.08325C11.2683 2.08325 13.9173 4.73223 13.9173 7.99992H15.4173C15.4173 3.90381 12.0968 0.583252 8.00065 0.583252V2.08325Z"
+                    fill="#A3A3A3"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1878_11343">
+                    <rect width="16" height="16" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="ms-1">16 ngày trước</span>
+              <div class="mx-3 h-4 w-px bg-[#737373]"></div>
+              <span>Lãi ghi nhận 15x</span>
+              <p class="ms-3 flex items-center gap-1 text-[#4ADE80]">
+                <span class=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="5"
+                    viewBox="0 0 8 5"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 0.5L7.4641 4.25H0.535898L4 0.5Z"
+                      fill="currentColor"
+                    ></path></svg></span
+                ><span class="">25.51%</span>
+              </p>
+            </div>
+            <!-- end - card footer -->
+          </span>
+          <!-- TRADE CARD - END -->
+          <span class="trade-card rounded-2xl bg-[#262626] p-6">
+            <p class="flex justify-between">
+              <span class="text-lg font-medium text-[#3B82F6]">#FUTURES</span>
+              <span class="rounded-lg bg-[#16A34A] px-4 py-1 text-white"
+                >Thắng</span
+              >
+            </p>
+            <!-- end - card header -->
+            <div class="mt-4 flex items-center gap-3">
+              <span class="rounded-lg bg-[#7F1D1D] px-4 py-1 text-[#eF4444]">
+                SHORT
+              </span>
+              <span class="flex items-center">
+                <p class="z-10 rounded-full bg-[#262626] p-0.5">
+                  <img
+                    src="src/img/icons/coins/ltc.png"
+                    class="h-7 w-7"
+                    alt=""
+                  />
+                </p>
+                <img
+                  src="src/img/icons/coins/doge.png"
+                  class="h-7 w-7 -translate-x-3"
+                  alt=""
+                />
+              </span>
+              <span class="font-medium text-white"> LTC/DOGE </span>
+            </div>
+            <!-- end - card label -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex justify-between">
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá vào</span>
+                <span class="text-lg text-white">48,950</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá đóng</span>
+                <span class="text-lg text-white">48,182</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Thời gian đóng</span>
+                <span class="text-lg text-white">14/06/2024 21:25</span>
+              </div>
+            </div>
+            <!-- end - card body -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex items-center text-[#A3A3A3]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1878_11343)">
+                  <path
+                    d="M8.00065 7.99992H7.25065C7.25065 8.32274 7.45722 8.60935 7.76348 8.71143L8.00065 7.99992ZM8.75065 4.66659C8.75065 4.25237 8.41487 3.91659 8.00065 3.91659C7.58644 3.91659 7.25065 4.25237 7.25065 4.66659H8.75065ZM9.76348 9.3781C10.1564 9.50908 10.5812 9.29671 10.7122 8.90376C10.8431 8.5108 10.6308 8.08606 10.2378 7.95507L9.76348 9.3781ZM8.75065 7.99992V4.66659H7.25065V7.99992H8.75065ZM7.76348 8.71143L9.76348 9.3781L10.2378 7.95507L8.23782 7.28841L7.76348 8.71143ZM13.9173 7.99992C13.9173 11.2676 11.2683 13.9166 8.00065 13.9166V15.4166C12.0968 15.4166 15.4173 12.096 15.4173 7.99992H13.9173ZM8.00065 13.9166C4.73297 13.9166 2.08398 11.2676 2.08398 7.99992H0.583984C0.583984 12.096 3.90454 15.4166 8.00065 15.4166V13.9166ZM2.08398 7.99992C2.08398 4.73223 4.73297 2.08325 8.00065 2.08325V0.583252C3.90454 0.583252 0.583984 3.90381 0.583984 7.99992H2.08398ZM8.00065 2.08325C11.2683 2.08325 13.9173 4.73223 13.9173 7.99992H15.4173C15.4173 3.90381 12.0968 0.583252 8.00065 0.583252V2.08325Z"
+                    fill="#A3A3A3"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1878_11343">
+                    <rect width="16" height="16" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="ms-1">16 ngày trước</span>
+              <div class="mx-3 h-4 w-px bg-[#737373]"></div>
+              <span>Lãi ghi nhận 15x</span>
+              <p class="ms-3 flex items-center gap-1 text-[#4ADE80]">
+                <span class=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="5"
+                    viewBox="0 0 8 5"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 0.5L7.4641 4.25H0.535898L4 0.5Z"
+                      fill="currentColor"
+                    ></path></svg></span
+                ><span class="">25.51%</span>
+              </p>
+            </div>
+            <!-- end - card footer -->
+          </span>
+          <!-- TRADE CARD - END -->
+          <span class="trade-card rounded-2xl bg-[#262626] p-6">
+            <p class="flex justify-between">
+              <span class="text-lg font-medium text-[#3B82F6]">#FUTURES</span>
+              <span class="rounded-lg bg-[#16A34A] px-4 py-1 text-white"
+                >Thắng</span
+              >
+            </p>
+            <!-- end - card header -->
+            <div class="mt-4 flex items-center gap-3">
+              <span class="rounded-lg bg-[#7F1D1D] px-4 py-1 text-[#eF4444]">
+                SHORT
+              </span>
+              <span class="flex items-center">
+                <p class="z-10 rounded-full bg-[#262626] p-0.5">
+                  <img
+                    src="src/img/icons/coins/ltc.png"
+                    class="h-7 w-7"
+                    alt=""
+                  />
+                </p>
+                <img
+                  src="src/img/icons/coins/doge.png"
+                  class="h-7 w-7 -translate-x-3"
+                  alt=""
+                />
+              </span>
+              <span class="font-medium text-white"> LTC/DOGE </span>
+            </div>
+            <!-- end - card label -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex justify-between">
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá vào</span>
+                <span class="text-lg text-white">48,950</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá đóng</span>
+                <span class="text-lg text-white">48,182</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Thời gian đóng</span>
+                <span class="text-lg text-white">14/06/2024 21:25</span>
+              </div>
+            </div>
+            <!-- end - card body -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex items-center text-[#A3A3A3]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1878_11343)">
+                  <path
+                    d="M8.00065 7.99992H7.25065C7.25065 8.32274 7.45722 8.60935 7.76348 8.71143L8.00065 7.99992ZM8.75065 4.66659C8.75065 4.25237 8.41487 3.91659 8.00065 3.91659C7.58644 3.91659 7.25065 4.25237 7.25065 4.66659H8.75065ZM9.76348 9.3781C10.1564 9.50908 10.5812 9.29671 10.7122 8.90376C10.8431 8.5108 10.6308 8.08606 10.2378 7.95507L9.76348 9.3781ZM8.75065 7.99992V4.66659H7.25065V7.99992H8.75065ZM7.76348 8.71143L9.76348 9.3781L10.2378 7.95507L8.23782 7.28841L7.76348 8.71143ZM13.9173 7.99992C13.9173 11.2676 11.2683 13.9166 8.00065 13.9166V15.4166C12.0968 15.4166 15.4173 12.096 15.4173 7.99992H13.9173ZM8.00065 13.9166C4.73297 13.9166 2.08398 11.2676 2.08398 7.99992H0.583984C0.583984 12.096 3.90454 15.4166 8.00065 15.4166V13.9166ZM2.08398 7.99992C2.08398 4.73223 4.73297 2.08325 8.00065 2.08325V0.583252C3.90454 0.583252 0.583984 3.90381 0.583984 7.99992H2.08398ZM8.00065 2.08325C11.2683 2.08325 13.9173 4.73223 13.9173 7.99992H15.4173C15.4173 3.90381 12.0968 0.583252 8.00065 0.583252V2.08325Z"
+                    fill="#A3A3A3"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1878_11343">
+                    <rect width="16" height="16" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="ms-1">16 ngày trước</span>
+              <div class="mx-3 h-4 w-px bg-[#737373]"></div>
+              <span>Lãi ghi nhận 15x</span>
+              <p class="ms-3 flex items-center gap-1 text-[#4ADE80]">
+                <span class=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="5"
+                    viewBox="0 0 8 5"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 0.5L7.4641 4.25H0.535898L4 0.5Z"
+                      fill="currentColor"
+                    ></path></svg></span
+                ><span class="">25.51%</span>
+              </p>
+            </div>
+            <!-- end - card footer -->
+          </span>
+          <!-- TRADE CARD - END -->
+          <span class="trade-card rounded-2xl bg-[#262626] p-6">
+            <p class="flex justify-between">
+              <span class="text-lg font-medium text-[#3B82F6]">#FUTURES</span>
+              <span class="rounded-lg bg-[#16A34A] px-4 py-1 text-white"
+                >Thắng</span
+              >
+            </p>
+            <!-- end - card header -->
+            <div class="mt-4 flex items-center gap-3">
+              <span class="rounded-lg bg-[#7F1D1D] px-4 py-1 text-[#eF4444]">
+                SHORT
+              </span>
+              <span class="flex items-center">
+                <p class="z-10 rounded-full bg-[#262626] p-0.5">
+                  <img
+                    src="src/img/icons/coins/ltc.png"
+                    class="h-7 w-7"
+                    alt=""
+                  />
+                </p>
+                <img
+                  src="src/img/icons/coins/doge.png"
+                  class="h-7 w-7 -translate-x-3"
+                  alt=""
+                />
+              </span>
+              <span class="font-medium text-white"> LTC/DOGE </span>
+            </div>
+            <!-- end - card label -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex justify-between">
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá vào</span>
+                <span class="text-lg text-white">48,950</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Giá đóng</span>
+                <span class="text-lg text-white">48,182</span>
+              </div>
+              <div class="flex flex-col gap-2">
+                <span class="text-sm text-gray-400">Thời gian đóng</span>
+                <span class="text-lg text-white">14/06/2024 21:25</span>
+              </div>
+            </div>
+            <!-- end - card body -->
+
+            <!-- start - divider -->
+            <div class="my-5 h-[1px] w-full bg-[#404040]"></div>
+            <!-- end - divider -->
+
+            <div class="flex items-center text-[#A3A3A3]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <g clip-path="url(#clip0_1878_11343)">
+                  <path
+                    d="M8.00065 7.99992H7.25065C7.25065 8.32274 7.45722 8.60935 7.76348 8.71143L8.00065 7.99992ZM8.75065 4.66659C8.75065 4.25237 8.41487 3.91659 8.00065 3.91659C7.58644 3.91659 7.25065 4.25237 7.25065 4.66659H8.75065ZM9.76348 9.3781C10.1564 9.50908 10.5812 9.29671 10.7122 8.90376C10.8431 8.5108 10.6308 8.08606 10.2378 7.95507L9.76348 9.3781ZM8.75065 7.99992V4.66659H7.25065V7.99992H8.75065ZM7.76348 8.71143L9.76348 9.3781L10.2378 7.95507L8.23782 7.28841L7.76348 8.71143ZM13.9173 7.99992C13.9173 11.2676 11.2683 13.9166 8.00065 13.9166V15.4166C12.0968 15.4166 15.4173 12.096 15.4173 7.99992H13.9173ZM8.00065 13.9166C4.73297 13.9166 2.08398 11.2676 2.08398 7.99992H0.583984C0.583984 12.096 3.90454 15.4166 8.00065 15.4166V13.9166ZM2.08398 7.99992C2.08398 4.73223 4.73297 2.08325 8.00065 2.08325V0.583252C3.90454 0.583252 0.583984 3.90381 0.583984 7.99992H2.08398ZM8.00065 2.08325C11.2683 2.08325 13.9173 4.73223 13.9173 7.99992H15.4173C15.4173 3.90381 12.0968 0.583252 8.00065 0.583252V2.08325Z"
+                    fill="#A3A3A3"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_1878_11343">
+                    <rect width="16" height="16" fill="white"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+              <span class="ms-1">16 ngày trước</span>
+              <div class="mx-3 h-4 w-px bg-[#737373]"></div>
+              <span>Lãi ghi nhận 15x</span>
+              <p class="ms-3 flex items-center gap-1 text-[#4ADE80]">
+                <span class=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="5"
+                    viewBox="0 0 8 5"
+                    fill="none"
+                  >
+                    <path
+                      d="M4 0.5L7.4641 4.25H0.535898L4 0.5Z"
+                      fill="currentColor"
+                    ></path></svg></span
+                ><span class="">25.51%</span>
+              </p>
+            </div>
+            <!-- end - card footer -->
+          </span>
+          <!-- TRADE CARD - END -->
+        </div>
+
+        <div class="mt-6 flex justify-center gap-2">
+          <span
+            class="flex h-10 w-10 items-center justify-center rounded-md border border-slate-400"
+          >
+            <svg
+              stroke="currentColor"
+              fill="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              class="text-lg"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"></path>
+            </svg>
+          </span>
+          <!-- end - pagination card -->
+          <span
+            class="flex h-10 w-10 items-center justify-center rounded-md border border-slate-400 text-sm font-medium text-white"
+          >
+            1
+          </span>
+          <span
+            class="flex h-10 w-10 items-center justify-center rounded-md border border-slate-400 text-sm font-medium text-white"
+          >
+            2
+          </span>
+          <span
+            class="flex h-10 w-10 items-center justify-center rounded-md border border-slate-400 text-sm font-medium text-white"
+          >
+            3
+          </span>
+          <span
+            class="flex h-10 w-10 items-center justify-center rounded-md border border-slate-400 text-sm font-medium text-white"
+          >
+            4
+          </span>
+          <span
+            class="flex h-10 w-10 items-center justify-center rounded-md border border-slate-400 text-sm font-medium text-white"
+          >
+            ...
+          </span>
+          <span
+            class="flex h-10 w-10 items-center justify-center rounded-md border border-slate-400 text-sm font-medium text-white"
+          >
+            5
+          </span>
+          <span
+            class="flex h-10 w-10 items-center justify-center rounded-md border border-slate-400 text-sm font-medium"
+          >
+            <svg
+              stroke="currentColor"
+              fill="white"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              class="text-lg"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"></path>
+            </svg>
+          </span>
+          <!-- end - pagination card -->
+        </div>
+        <!-- PAGINATION - END -->
+      </section>
+      <!-- MARKET ===== - END -->
+    </main>
+    <!-- ===== INNER WRAPER ===== - END -->
+
+    <!-- ===== FOOTER - START -->
     <footer class="rounded-t-[10rem] bg-black pb-10 pt-[120px]">
       <div class="container">
         <div class="flex justify-between">
@@ -238,6 +1191,6 @@
         </p>
       </div>
     </footer>
-    <!-- FOOTER - END -->
+    <!-- FOOTER ===== - END -->
   </body>
 </html>
