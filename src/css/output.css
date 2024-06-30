@@ -2368,6 +2368,14 @@ html {
   background-image: url(/src/img/plan.png);
 }
 
+.bg-\[url\(\.\.\/img\/info\/community\.png\)\] {
+  background-image: url(../img/info/community.png);
+}
+
+.bg-\[url\(\.\.\/img\/plan\.png\)\] {
+  background-image: url(../img/plan.png);
+}
+
 .bg-cover {
   background-size: cover;
 }
